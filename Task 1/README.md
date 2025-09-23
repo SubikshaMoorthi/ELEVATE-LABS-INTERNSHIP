@@ -1,6 +1,6 @@
 # Data Cleaning & Preprocessing
 
-This project ELEVATE LABS Internship – Task 1  
+This project is ELEVATE LABS Internship – Task 1  
 It demonstrates how to clean and preprocess the Titanic dataset to make it suitable for **Exploratory Data Analysis (EDA)** and **Machine Learning**.
 
 # Files
