@@ -18,23 +18,23 @@ pip install pandas matplotlib seaborn plotly
 * Compute summary statistics (mean, median, std)
 
 * Univariate Analysis:
-    Histogram of Age and Fare
-    Boxplots (Age vs Class, Fare vs Survival)
-    Bivariate & Multivariate Analysis:
-    Correlation heatmap of numerical features
-    Pairplot of Age, Fare, Survival
+    - Histogram of Age and Fare
+    - Boxplots (Age vs Class, Fare vs Survival)
+    - Bivariate & Multivariate Analysis:
+    - Correlation heatmap of numerical features
+    - Pairplot of Age, Fare, Survival
 * Categorical Analysis:
-    Survival Rate by Gender
-    Survival Rate by Passenger Class
+    - Survival Rate by Gender
+    - Survival Rate by Passenger Class
 * Interactive Plots (Plotly):
-    Histogram of Age distribution by survival status
-    Scatter plot of Age vs Fare with hover details
+    - Histogram of Age distribution by survival status
+    - Scatter plot of Age vs Fare with hover details
   
 * Visualizations
-    Age & Fare Distributions (Histograms)
-    Age vs Passenger Class (Boxplot)
-    Fare vs Survival (Boxplot)
-    Correlation Matrix (Heatmap)
-    Pairplot (Age, Fare, Survival)
-    Survival Rates (Barplots by Gender & Class)
-    Interactive Plotly charts (Histogram, Scatter)
+    - Age & Fare Distributions (Histograms)
+    - Age vs Passenger Class (Boxplot)
+    - Fare vs Survival (Boxplot)
+    - Correlation Matrix (Heatmap)
+    - Pairplot (Age, Fare, Survival)
+    - Survival Rates (Barplots by Gender & Class)
+    - Interactive Plotly charts (Histogram, Scatter)
