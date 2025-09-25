@@ -1,23 +1,26 @@
-# Data Cleaning & Preprocessing
+# Task 3: Linear Regression – House Price Prediction
 
-This project ELEVATE LABS Internship – Task 1  
-It demonstrates how to clean and preprocess the Titanic dataset to make it suitable for **Exploratory Data Analysis (EDA)** and **Machine Learning**.
+This project is **ELEVATE LABS Internship – Task 3**  
+It demonstrates how to implement **simple linear regression** to predict house prices using a single feature (`area`) and visualize the regression line.
 
 # Files
 
-- Titanic-Dataset.csv -> Raw dataset  
-- titanic_cleaning.py -> Python script for preprocessing
+- Housing.csv -> Raw dataset  
+- LinearRegression.py -> Python script implementing linear regression
+
 
 # Requirements
 
 Install dependencies:
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install pandas matplotlib scikit-learn
 
 # Steps Performed
 
-* Load dataset (Titanic-Dataset.csv)
-* Handle missing values
-* Encode categorical features
-* Scale numerical features using StandardScaler
-* Outlier removal in Fare using IQR method
-* Visualization → Boxplot of Fare before outlier removal
+- Load dataset (Housing.csv)
+- Handle missing values
+- Select feature (area) and target (price)
+- Split data into train-test sets
+- Fit a Linear Regression model using sklearn.linear_model
+- Evaluate the model using MAE, MSE, and R² Score
+- Print model intercept and coefficient
+- Plot regression line showing predicted vs actual house prices
