@@ -8,7 +8,6 @@ It demonstrates how to implement **simple linear regression** to predict house p
 - Housing.csv -> Raw dataset  
 - LinearRegression.py -> Python script implementing linear regression
 
-
 # Requirements
 
 Install dependencies:
